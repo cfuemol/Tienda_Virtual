@@ -19,11 +19,12 @@ def clean_screen():
 
 
 def push_enter():
+    """Espera que el usuario pulse ENTER para continuar"""    
     input(f'\nPulsa ENTER para continuar...')
 
 
 def menu_principal():
-    
+    """Borra la pantalla y muestra el menu principal de la APP"""    
     clean_screen()
 
     print(f'##################################')
@@ -36,6 +37,14 @@ def menu_principal():
 
 
 def menu_productos():
+    """Esta función va a generar el submenu productos, 
+    recogiendo la opción elegida y ejecutando la opción
+    
+    .. seealso: def:`menu_principal()`
+    .. seealso: def:`menu_clientes()`
+    .. seealso: def:`menu_reseñas()`
+    .. seealso: def:`menu_pedidos()`
+    .. todo: generar ID automáticamente y comprobar integridad de los datos"""
     
     trigger = True
 
@@ -123,7 +132,15 @@ def menu_productos():
 
 
 def menu_clientes():
+    """Esta función va a generar el submenu clientes, 
+    recogiendo la opción elegida y ejecutando la opción
     
+    .. seealso: def:`menu_principal()`
+    .. seealso: def:`menu_productos()`
+    .. seealso: def:`menu_reseñas()`
+    .. seealso: def:`menu_pedidos()`
+    .. todo: generar ID automáticamente y comprobar integridad de los datos"""
+
     trigger = True
 
     while trigger:
@@ -168,7 +185,15 @@ def menu_clientes():
 
 
 def menu_pedidos():
+    """Esta función va a generar el submenu pedidos, 
+    recogiendo la opción elegida y ejecutando la opción
     
+    .. seealso: def:`menu_principal()`
+    .. seealso: def:`menu_clientes()`
+    .. seealso: def:`menu_reseñas()`
+    .. seealso: def:`menu_productos()`
+    .. todo: generar ID automáticamente y comprobar integridad de los datos""" 
+
     trigger = True
     
     while trigger:
@@ -270,6 +295,14 @@ def menu_pedidos():
                 push_enter()
 
 def menu_reseñas():
+    """Esta función va a generar el submenu reseñas, 
+    recogiendo la opción elegida y ejecutando la opción
+    
+    .. seealso: def:`menu_principal()`
+    .. seealso: def:`menu_clientes()`
+    .. seealso: def:`menu_pedidos()`
+    .. seealso: def:`menu_productos()`
+    .. todo: generar ID automáticamente y comprobar integridad de los datos """
 
     trigger = True
 
