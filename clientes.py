@@ -1,16 +1,5 @@
 class Cliente:
-    """_summary_
-
-    ### Parámetros
-    1. id_cliente: str
-        - Código de identifiación del cliente
-    2.- nombre: str
-        - Nombre del cliente
-    3.- email: str
-        - Email del cliente
-    4.- direccion: str
-        - Dirección del cliente
-    """    
+   
     def __init__(self, id_cliente:str, nombre:str, email:str, direccion:str):
         self.__id_cliente = id_cliente
         self.__nombre = nombre
