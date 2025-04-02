@@ -12,6 +12,8 @@ from reseña import Reseña
 
 
 def clean_screen():
+    """Limpiar la terminal
+    """    
     if os == 'nt':
         os.system('cls')
     else: 
@@ -38,7 +40,7 @@ def menu_principal():
 
 def menu_productos():
     """Esta función va a generar el submenu productos, 
-    recogiendo la opción elegida y ejecutando la opción
+    recogiendo la opción elegida y ejecutando la opción correspondiente
     
     .. seealso: def:`menu_principal()`
     .. seealso: def:`menu_clientes()`
@@ -133,7 +135,7 @@ def menu_productos():
 
 def menu_clientes():
     """Esta función va a generar el submenu clientes, 
-    recogiendo la opción elegida y ejecutando la opción
+    recogiendo la opción elegida y ejecutando la opción correspondiente
     
     .. seealso: def:`menu_principal()`
     .. seealso: def:`menu_productos()`
@@ -186,7 +188,7 @@ def menu_clientes():
 
 def menu_pedidos():
     """Esta función va a generar el submenu pedidos, 
-    recogiendo la opción elegida y ejecutando la opción
+    recogiendo la opción elegida y ejecutando la opción correspondiente
     
     .. seealso: def:`menu_principal()`
     .. seealso: def:`menu_clientes()`
@@ -296,7 +298,7 @@ def menu_pedidos():
 
 def menu_reseñas():
     """Esta función va a generar el submenu reseñas, 
-    recogiendo la opción elegida y ejecutando la opción
+    recogiendo la opción elegida y ejecutando la opción correspondiente
     
     .. seealso: def:`menu_principal()`
     .. seealso: def:`menu_clientes()`
