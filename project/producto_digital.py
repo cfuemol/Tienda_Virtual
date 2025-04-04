@@ -13,17 +13,17 @@ class ProductoDigital(Producto):
         """Constructor de la clase ProductoDigital, cada vez que creemos un producto digital,
             nos generará un objeto con los siguientes parámetros protegidos:
 
-        :param id_producto: _description_
+        :param id_producto: ID del producto digital
         :type id_producto: str
-        :param nombre: _description_
+        :param nombre: Nombre del producto
         :type nombre: str
-        :param precio: _description_
+        :param precio: Precio del producto
         :type precio: float
-        :param stock: _description_
+        :param stock: Stock inicial del producto
         :type stock: int
-        :param formato: _description_
+        :param formato: Formato del producto (PDF, mp4....)
         :type formato: str
-        :param tamano: _description_
+        :param tamano: Tamaño del archivo
         :type tamano: str
         """        
 
