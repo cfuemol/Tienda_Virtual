@@ -1,5 +1,4 @@
-# Tienda_Virtual
-
+# Manual de Usuario del Proyecto Tienda_Virtual
 ## IES Abdera (Adra - Almería)
 ### CFGS Desarrollo de Aplicaciones Web (DAW)
 #### Curso 2024 - 2025

@@ -8,7 +8,7 @@ from productos import Producto
 from clientes import Cliente
 from producto_digital import ProductoDigital
 from pedido import Pedido
-from docs.reseña import Reseña
+from project.reseña import Reseña
 
 
 def clean_screen():
