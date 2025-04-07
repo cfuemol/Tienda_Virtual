@@ -69,7 +69,7 @@ Pasos detallados para instalar y configurar la aplicación.
 
 ---
 
-## 5. Preguntas Frecuentes (FAQ)
+## 4. Preguntas Frecuentes (FAQ)
 **❓ Da errores arbitarios**  
 - Cerrar el programa y volverlo a ejecutar  
 
@@ -78,13 +78,13 @@ Pasos detallados para instalar y configurar la aplicación.
 
 ---
 
-## 6. Contacto y Soporte
+## 5. Contacto y Soporte
 - Email de soporte: `soporte@iesabdera.com`  
 - Teléfono de contacto: `950 XXX XXX`  
 
 ---
 
-## 7. Créditos y Licencia
+## 6. Créditos y Licencia
 - El desarrollador de esta APP es un estudiante de 1° DAW 
 - Aplicación amparada bajo el estandar GNU General Public License v.3.0
 
