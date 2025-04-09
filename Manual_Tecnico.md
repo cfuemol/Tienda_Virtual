@@ -43,8 +43,8 @@ Lista de software necesario para ejecutar el proyecto:
 ```plaintext
 
 📂 Tienda_Virtual
-├── Casos_Uso.drawio
-├── Diagrama_Clases.drawio
+├── Casos_Uso.png
+├── Diagrama_Clases.png
 ├── Manual_Tecnico.md
 ├── Manual_Usuario.md
 ├── README.md
